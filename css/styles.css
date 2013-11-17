@@ -1,0 +1,42 @@
+/*
+
+	By Jonathon Toon
+
+	>>jonathontoon.com<<
+
+	This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+	Give where credit is due. 
+
+*/
+body {
+  margin: 0;
+  padding: 0;
+}
+body #container {
+
+}
+body #container #canvas {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+  background-color: transparent; 
+}
+
+#selectedImage {
+  z-index: 99;
+  position: absolute;
+}
+
+#info {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left:50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -300px;
+}
